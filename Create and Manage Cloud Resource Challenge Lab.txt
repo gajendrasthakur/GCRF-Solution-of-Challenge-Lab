@@ -50,7 +50,7 @@ gcloud compute instance-groups managed create web-server-group \
           --template web-server-template \
           --region us-east1
 
-gcloud compute firewall-rules create web-server-firewall \
+gcloud compute firewall-rules create <change name of firewall from lab instructions here> \
           --allow tcp:80 \
           --network nucleus-vpc
 
